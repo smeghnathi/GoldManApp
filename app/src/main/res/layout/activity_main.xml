@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/eyecool"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="250dp"
+        android:src="@drawable/restaurant"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btManageParty"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/bungee"
+        android:text="@string/manager_party"
+        android:textColor="@color/eyehot"
+        android:textSize="30sp"
+        app:backgroundTint="@color/orange" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btPurchase"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/bungee"
+        android:text="@string/purchase"
+        android:textColor="@color/eyehot"
+        android:textSize="30sp"
+        app:backgroundTint="@color/orange" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btPayment"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/bungee"
+        android:text="@string/payment"
+        android:textColor="@color/eyehot"
+        android:textSize="30sp"
+        app:backgroundTint="@color/orange" />
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/btBalance"
+        style="@style/Widget.MaterialComponents.TextInputLayout.OutlinedBox"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp"
+        android:baselineAligned="false"
+        android:fontFamily="@font/bungee"
+        android:text="@string/balance"
+        android:textColor="@color/eyehot"
+        android:textSize="30sp"
+        app:backgroundTint="@color/orange" />
+
+</LinearLayout>

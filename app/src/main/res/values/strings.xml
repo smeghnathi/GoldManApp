@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">GoldManApp</string>
+    <string name="manager_party">Manager Party</string>
+    <string name="purchase">Purchase</string>
+    <string name="payment">Payment</string>
+    <string name="balance">Balance</string>
+
+    <string name="party_name">Full Name</string>
+    <string name="location">City</string>
+</resources>
